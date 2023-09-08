@@ -1,0 +1,42 @@
+html, body, h1, p, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+}
+body {
+    background: #c5c9d4 url(background.jpg) top center no-repeat;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+h1 {
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #052b2b;
+}
+p {
+    padding-top: 20px;
+    font-size: 25px;
+    color: #052b2b;
+}
+.nav ul {
+    background-color: #052b2b;
+    line-height: 45px;
+}
+.nav li {
+    display: inline;
+    margin: 0 15px 0 15px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: #052b2b
+}
+.nav a {
+    color: #c5c9d4;
+}
+a:hover {
+    text-decoration: underline;
+}
